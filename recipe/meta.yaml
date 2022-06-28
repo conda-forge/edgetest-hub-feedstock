@@ -1,5 +1,5 @@
 {% set name = "edgetest-hub" %}
-{% set version = "2022.4.1" %}
+{% set version = "2022.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 321f8a0dee561a0e4ec6da95bb7ec9c51d0a6e4e55f961beae10d0bb439155a3
+  sha256: 980c63bd4f4f62feb0fe5f8d59fe8b9f615b3fccd450a0baf5b5777c2b3fa545
 
 build:
   noarch: python
