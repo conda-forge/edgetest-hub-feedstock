@@ -1,11 +1,11 @@
-About edgetest-hub
-==================
+About edgetest-hub-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/edgetest-hub-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/capitalone/edgetest-hub
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/edgetest-hub-feedstock/blob/main/LICENSE.txt)
 
 Summary: edgetest-hub is a hub plugin for edgetest
 
@@ -150,6 +150,9 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@NikhilJArora](https://github.com/NikhilJArora/)
 * [@ak-gupta](https://github.com/ak-gupta/)
 * [@fdosani](https://github.com/fdosani/)
+* [@gladysteh99](https://github.com/gladysteh99/)
+* [@jdawang](https://github.com/jdawang/)
 
