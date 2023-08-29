@@ -11,18 +11,18 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install -vv --no-deps .
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
   run:
     - edgetest >=2021.12.3
     - git
     - hub
-    - python >=3.7
+    - python >=3.8
 
 test:
   imports:
