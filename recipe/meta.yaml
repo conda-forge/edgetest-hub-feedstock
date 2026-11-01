@@ -16,15 +16,18 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
+    - setuptools >=64.0.0
   run:
     - edgetest >=2021.12.3
     - git
     - hub
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - edgetest_hub.plugin
 
